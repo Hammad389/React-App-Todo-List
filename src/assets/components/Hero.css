@@ -1,0 +1,63 @@
+:root {
+  --primary-color: #007af3;
+  --primary-font: "Poppins", sans-serif;
+}
+
+section.hero {
+  padding: 5em 2em;
+  text-align: center;
+}
+
+.left-col {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  letter-spacing: 0.1em;
+  display: inline-block;
+  padding-right: 2em;
+}
+
+.subhead {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: grey;
+  letter-spacing: 0.3em;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  line-height: 1.3em;
+  margin-top: 0.2em;
+}
+
+.primary-cta {
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+  text-decoration: none;
+  padding: 0.6em 1.3em; /* Fixed comma to space */
+  font-size: 1.4em;
+  border-radius: 5em;
+  display: inline-block;
+}
+
+.watch-a-video-cta {
+  display: block;
+  margin-top: 1em;
+}
+
+.watch-a-video-cta img {
+  margin-right: 0.5em;
+}
+
+.hero-img {
+  width: 40%;
+  margin-top: 3em;
+  cursor: pointer;
+}
+
+/* ✅ Correctly defined glow effect */
+.glow {
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 10px #007af3, 0 0 20px #007af3, 0 0 30px #007af3;
+}

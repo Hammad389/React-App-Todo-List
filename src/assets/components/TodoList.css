@@ -1,0 +1,6 @@
+.todo-card {
+  width: 80%;
+  margin: 0 auto;
+  height: 500px;
+  font-size: 1.1rem; /* optional for making text slightly larger */
+}

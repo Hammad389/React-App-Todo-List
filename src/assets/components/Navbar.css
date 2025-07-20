@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+nav.bg-body-tertiary {
+  background-color: rgb(248, 252, 255) !important; /* override Bootstrap */
+  color: aliceblue !important;
+}
+
+.container-fluid {
+  .navbar-brand {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    span {
+      color: cornflowerblue;
+    }
+  }
+  .glow {
+    color: white;
+    font-size: auto;
+    text-shadow: 0 0 5px rgb(45, 46, 117), 0 0 10px #0ff, 0 0 15px #0ff;
+    transition: text-shadow 0.3s ease-in-out;
+  }
+}
